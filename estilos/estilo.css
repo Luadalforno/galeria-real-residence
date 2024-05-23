@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url(https://db.onlinewebfonts.com/c/7c9d8cabea7f4697dde2e98c001c5f2d?family=Futura+PT+Light);
+
+@font-face {
+    font-family: "Futura PT Light";
+    src: url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot");
+    src: url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.svg#Futura PT Light")format("svg");
+}
+
+body {
+
+    background-color: rgb(219, 216, 225);
+    font-family:"Futura PT Light";
+    font-size: 23px;
+    
+    
+}
+
+.naveg {
+    background-color: black;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+
+}
+
+
+
+h1 {
+    background-color: rgb(219, 216, 225);
+    color: black;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom:15px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Futura PT Light";
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 60px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: black;
+    
+}
+
+ .naveg > nav > div > a {
+    
+    text-decoration: none;
+    padding: 5px;
+    transition-duration: 0.3s;
+    color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.naveg > nav > div {
+    display: inline-block;
+    width: 280px;
+}
+
+nav a:hover {
+    background-color: #92aec7;
+    
+}
+
+div.quadrado1 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    
+}
+
+.quadrado1>div {
+    display: inline-block;
+    width: 305px;
+    
+}
+
+.quadrado1 div:hover {
+    border-style: solid;
+}
+
+div.quadrado2 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.quadrado2>div {
+    display: inline-block;
+    width: 305px;
+}
+
+.quadrado2 div:hover {
+    border-style: solid;
+}
+
+div.quadrado3 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.quadrado3>div {
+    display: inline-block;
+    width: 305px;
+}
+
+.quadrado3 div:hover {
+    border-style: solid;
+}
+
+div.quadrado4 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.quadrado4>div {
+    display: inline-block;
+    width: 305px;
+}
+
+.quadrado4 div a:hover {
+    border-style: solid;
+}
+
+div.quadrado5 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.quadrado5 > div {
+    display: inline-block;
+    width: 305px;
+}
+
+.quadrado5 div a:hover {
+    border-style: solid;
+}
+
+div.quadrado6 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.quadrado6 > div {
+    display: inline-block;
+    width: 305px;
+}
+
+.quadrado6 div a:hover {
+    border-style: solid;
+}
+
+
+div.quadrado7 {
+    display: inline-block;
+}

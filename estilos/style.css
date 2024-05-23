@@ -1,0 +1,159 @@
+
+@import url(https://db.onlinewebfonts.com/c/7c9d8cabea7f4697dde2e98c001c5f2d?family=Futura+PT+Light);
+
+@font-face {
+    font-family: "Futura PT Light";
+    src: url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot");
+    src: url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.svg#Futura PT Light")format("svg");
+}
+
+
+
+body {
+    background-color: rgb(219, 216, 225);
+    text-align: center;
+    font-family: "Futura PT Light";
+    font-size: 23px;
+    margin: auto;
+  
+    
+    
+}
+
+#img01{
+    background-image: url('../imagens/claudio\ fonseca\ -felino.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    color: #ffffff;
+    font-family: "Futura PT Light";
+    text-indent: 10px;
+}
+
+nav {
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 10px;
+    
+}
+
+nav > a {
+    
+    text-decoration: none;
+    padding: 5px;
+    transition-duration: 0.3s;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    font-family: "Futura PT Light";
+    color: #f0f8ff;
+    font-size: 50px;
+}
+
+
+h2 {
+    font-family: "Futura PT Light";
+    font-size:medium;
+    text-align:center;
+    color:#f0f8ff;
+    
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+div.Arte {
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.532);
+}
+
+#horarios {
+    color: black;
+    font-family: "Futura PT Light";
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+main {
+    background-color: #f7fbff;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+}
+
+main img {
+    width: 100%;
+}
+
+
+
+
+footer {
+    background-color: rgb(8, 3, 3);
+    color: #f5f0e9;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+
+
+#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    
+}
+
+#redes-sociais {
+    text-align: justify;
+}
+#forte {
+    text-align: center;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.669);
+    transition: transform .3, border 4s;
+}
+
+p {
+    font-family:'Lato';
+    font-size: large;
+}
+
+fieldset {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.campo {
+    border-radius: 5px;
+}
+
+
+
