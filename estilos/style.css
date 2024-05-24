@@ -30,6 +30,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
+    padding: 10px;
 }
 
 p {
@@ -39,10 +40,26 @@ p {
     text-indent: 10px;
 }
 
+#burguer {
+   background-color: rgb(84, 82, 82); 
+   display: block;
+   width: 100vw;
+   text-align: center;
+   padding: 10px;
+   color: white;
+   cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: rgb(174, 168, 168);
+    
+}
+
 nav {
     text-align: right;
     margin-right: 20px;
     padding-right: 10px;
+    display: none;
     
 }
 
