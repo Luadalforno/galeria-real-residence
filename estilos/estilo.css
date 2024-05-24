@@ -63,7 +63,7 @@ nav {
     text-decoration: none;
     padding: 5px;
     transition-duration: 0.3s;
-    color: #f0f8ff;
+    color: #e3e9ee;
     display: flex;
     justify-content: center;
 
@@ -75,7 +75,8 @@ nav {
 }
 
 nav a:hover {
-    background-color: #92aec7;
+    background-color: #9da8b1;
+    color: black;
     
 }
 

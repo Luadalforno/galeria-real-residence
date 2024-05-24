@@ -11,6 +11,8 @@
 
     nav>a {
         display: inline-block;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     
