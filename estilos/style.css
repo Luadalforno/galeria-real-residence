@@ -78,36 +78,44 @@ nav > a {
 }
 
 nav a:hover {
-    background-color: #f0f8ff;
-    border-radius: 10px;
+    background-color: #f1804c;
+    padding: 3px;
+    color: #f0f8ff;
     
 }
 
 h1 {
     font-family: "Futura PT Light";
-    color: #f0f8ff;
+    color: black;
     font-size: 50px;
+    text-align: left;
+    padding-left: 70px;
+    margin-bottom: 3px;
 }
 
 
 h2 {
     font-family: "Futura PT Light";
     font-size:medium;
-    text-align:center;
-    color:#f0f8ff;
+    text-align: left;
+    color:#f1804c;
+    padding-left: 110px;
+    font-size: 20px;
+    
     
 }
 
 h3 {
     font-size: 30px;
     padding-top: 40px;
+    color: #3cb07c;
 }
 
 div.Arte {
-    background-color: black;
+    background-color: rgb(193, 186, 186);
     border-radius: 0 0 10px 10px;
     padding: 2px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.532);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
     
 }
 
@@ -122,7 +130,7 @@ div.Arte {
 
 
 main {
-    background-color: #f7fbff;
+    background-color: rgb(193, 186, 186);
     border-radius: 10px;
     padding-bottom: 10px;
     
