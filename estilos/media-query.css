@@ -9,7 +9,7 @@
         display: block;
     }
 
-    nav a {
+    nav>a {
         display: inline-block;
     }
 

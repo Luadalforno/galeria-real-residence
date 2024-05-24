@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    .quadrado1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quadrado2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quadrado3 {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .quadrado4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quadrado5 {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .quadrado6 {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .quadrado7 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
