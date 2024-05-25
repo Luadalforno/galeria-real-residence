@@ -17,6 +17,7 @@ body {
     background-color: rgb(219, 216, 225);
     font-family:"Futura PT Light";
     font-size: 23px;
+    background-color: #EDE9E9;
     
     
     
@@ -37,7 +38,7 @@ body {
 
 
 h1 {
-    background-color: rgb(219, 216, 225);
+    background-color: #EDE9E9;
     color: black;
     height: 100px;
     padding-top: 50px;
@@ -78,7 +79,7 @@ nav {
 
 nav a:hover {
     background-color: #f1804c;
-    color: white;
+    color: #f0f8ff;
     border-radius: 6px;
     
 }
@@ -88,16 +89,18 @@ div.quadrado1 {
     justify-content: center;
     margin-right: auto;
     
+    
 }
 
 .quadrado1>div {
-    display: inline-block;
-    width: 305px;
+    
+    
     
 }
 
 .quadrado1 div:hover {
     border-style: solid;
+    color: #9A9090;
 }
 
 div.quadrado2 {
