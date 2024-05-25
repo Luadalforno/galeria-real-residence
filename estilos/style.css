@@ -66,6 +66,7 @@ nav {
     margin-right: 20px;
     padding-right: 10px;
     display: none;
+    font-size: 18px;
     
 }
 
@@ -81,6 +82,7 @@ nav a:hover {
     background-color: #f1804c;
     padding: 3px;
     color: #f0f8ff;
+    border-radius: 6px;
     
 }
 
