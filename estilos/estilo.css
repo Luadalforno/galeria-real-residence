@@ -195,6 +195,18 @@ div.quadrado6 {
 
 
 div.quadrado7 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.quadrado7 > div {
     display: inline-block;
+    width: 305px;
+}
+
+.quadrado7 div:hover {
+    border-style: solid;
+    color: #9A9090;
 }
 
