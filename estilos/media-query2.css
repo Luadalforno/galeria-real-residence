@@ -46,16 +46,18 @@
     }
     
     nav {
+        
         display: block;
-    }
-
-    nav>a {
-        display: inline-block;
-        justify-content: center;
-        flex-wrap: wrap;
+        text-align: center;
+        
+        
     }
 
     
+     
+    
 }
+
+
 
 

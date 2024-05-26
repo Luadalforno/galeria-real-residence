@@ -81,8 +81,9 @@ nav {
 }
 
 .naveg > nav > div {
-    display: inline-block;
-    width: 280px;
+    display:inline-block;
+    width: 200px;
+    justify-content: center;
 }
 
 nav a:hover {
