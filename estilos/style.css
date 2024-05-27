@@ -27,11 +27,16 @@ body {
     
 }
 
+#arte {
+    margin-top: -140px;
+    margin-left: 20px;
+}
+
 #coroa {
-    position:absolute;
-    transform: translate(-10%);
-    padding-left: 20px;
-    top: 3.7%;
+    position:relative;
+    text-align: left;
+    margin-bottom: 30px;
+    
     
     
 }
@@ -56,17 +61,15 @@ p {
 }
 
 #burguer {
-   background-color: rgb(84, 82, 82); 
+   background-color: rgb(143, 139, 139); 
    display: block;
-   width: 100vw;
-   text-align: center;
    padding: 10px;
    color: white;
    cursor: pointer;
 }
 
 #burguer:hover {
-    background-color: rgb(174, 168, 168);
+    background-color: #746666;
     
 }
 
@@ -76,6 +79,7 @@ nav {
     padding-right: 10px;
     display: none;
     font-size: 18px;
+    padding-top: 10px;
     
 }
 
@@ -124,13 +128,7 @@ h3 {
     color: #3cb07c;
 }
 
-div.Arte {
-    background-color: rgb(193, 186, 186);
-    border-radius: 0 0 10px 10px;
-    padding: 2px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
-    
-}
+
 
 #horarios {
     color: black;
@@ -143,8 +141,7 @@ div.Arte {
 
 
 main {
-    background-color: rgb(193, 186, 186);
-    border-radius: 10px;
+    
     padding-bottom: 10px;
     
     

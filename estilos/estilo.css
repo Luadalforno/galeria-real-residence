@@ -27,20 +27,21 @@ body {
     margin-top: -10px;
     margin-right: -10px;
     margin-left: -10px;
+    
 
 }
 #burguer {
-    background-color: rgb(84, 82, 82); 
+    background-color: rgb(143, 139, 139); 
     display: block;
     width: 100vw;
     text-align: center;
     padding: 10px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
 #burguer:hover {
-    background-color: rgb(174, 168, 168);
+    background-color: #746666;
     
 }
 
