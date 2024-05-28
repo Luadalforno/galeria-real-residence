@@ -42,7 +42,7 @@ body {
 }
 
 #img01{
-    background-image: url('../imagens/claudio\ fonseca\ -felino.jpg');
+    background-image: url('../imagens/surfistaespacial.jpg');
     background-size: cover;
     background-attachment: fixed;
     width: 100%
@@ -94,7 +94,7 @@ nav > a {
 }
 
 nav a:hover {
-    background-color: #f1804c;
+    background-color: #547EB0;
     padding: 3px;
     color: #f0f8ff;
     border-radius: 6px;
@@ -115,7 +115,7 @@ h2 {
     font-family: "Futura PT Light";
     font-size:medium;
     text-align: left;
-    color:#f1804c;
+    color:#547EB0;
     padding-left: 140px;
     font-size: 20px;
     position: relative;
@@ -125,9 +125,9 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 40px;
-    color: #3cb07c;
+    color: #C4273B;
 }
 
 
