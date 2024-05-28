@@ -66,10 +66,12 @@ p {
    padding: 10px;
    color: white;
    cursor: pointer;
+   border-radius: 50%;
+   margin-left: 5px;
 }
 
 #burguer:hover {
-    background-color: #746666;
+    background-color: #f1804c;
     
 }
 
