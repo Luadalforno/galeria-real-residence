@@ -45,10 +45,17 @@ body {
     background-image: url('../imagens/surfistaespacial.jpg');
     background-size: cover;
     background-attachment: fixed;
-    width: 100%
+    width: 100%;
     
     
     
+    
+    
+}
+
+.imagens{
+    
+    width: 100%;
     
 }
 
@@ -133,6 +140,19 @@ h3 {
 h4 {
     font-size: 30px;
     color: #827CA2;
+}
+
+.expo {
+    text-align: center;
+    font-family: "Futura PT Light";
+    font-weight: bold;
+   
+}
+
+.expo2 {
+    font-family: "Futura PT Light";
+    font-size: 23px;
+    font-weight: bold;
 }
 
 
