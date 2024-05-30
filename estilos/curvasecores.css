@@ -12,58 +12,27 @@
     url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.svg#Futura PT Light")format("svg");
 }
 
-
-
 body {
     background-color: rgb(210, 206, 206);
     
     
 }
 
-.curvasecores {
-   
-    
-    width: 30%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+h1 {
     text-align: center;
-    padding: 10px 20px;
-    
-}
-
-.geração80 {
-    width: 30%;
-    background-color: white;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   text-align: center;
-   padding: 10px 20px ;
-   
-        
-}
-
-
-
-.maioejunho {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
-
-
-span {
-   
     font-family: "Futura PT Light";
-    
-    
+    font-size: 25px;
+    font-weight: bold;
 }
 
-h2 {
-    text-align: left;
+p {
     font-family: "Futura PT Light";
+    font-size: 18px;
+    font-weight: light;
+    text-indent: 10px;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
 }
-
-
 
