@@ -38,6 +38,7 @@ body {
    text-align: center;
    padding: 10px 20px ;
    
+   
         
 }
 
@@ -46,7 +47,10 @@ body {
 .maioejunho {
     display: flex;
     flex-wrap: wrap;
+    
 }
+
+
 
 
 
