@@ -5,7 +5,7 @@
 @media(min-width: 500px) and (max-width: 768px){
     .imagem {
         height: 15vh;
-        width: 7vw;
+        width: 15vw;
         object-fit: cover;}
 
         .parabola, .subver, .exrot {
@@ -23,6 +23,29 @@
            
 
         }
+
+        .exrot p {
+            margin-block: 80px;
+            text-align: left;
+            text-indent: -10px;
+            font-size: 12px;
+        }
+
+        .parabola p {
+            margin-block: 80px;
+            text-align: left;
+            ;
+            font-size: 12px;
+        }
+
+        .subver p{
+            margin-block: 80px;
+            text-align: left;
+            text-indent: ;
+            font-size: 12px;
+        }
+
+        
 
         .obras {
             flex-wrap: wrap;
