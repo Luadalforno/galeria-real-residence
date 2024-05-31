@@ -4,7 +4,9 @@
 
 @media(min-width: 500px) and (max-width: 768px){
     
-
+        .imagem {
+            margin: auto;
+        }
         
 
         .exrot p {
@@ -50,6 +52,7 @@
         height: 25vh;
         width:13vw;
         object-fit: cover;
+        
     }
 
     .parabola, .subver, .exrot, .abomba, .negraruiva {
@@ -64,10 +67,12 @@
     width: 260px;
     height: 170px;
     object-fit: cover;
+    margin: auto;
     }
 
     .obras {
         flex-wrap: wrap;
+        
     }
 }
 
@@ -75,6 +80,7 @@
         .imagem {
             height: 40vh;
             width: 17vw;
+            margin: auto;
         }
 
         .parabola, .subver, .exrot, .abomba, .negraruiva {
@@ -89,6 +95,7 @@
         width: 340px;
         height: 300px;
         object-fit: cover;
+        margin: auto;
         }
 
         
@@ -98,6 +105,7 @@
         .imagem {
             height: 40vh;
             width: 17vw;
+            
         }
 
         .parabola, .subver, .exrot, .abomba, .negraruiva {
@@ -112,6 +120,7 @@
         width: 340px;
         height: 300px;
         object-fit: cover;
+        margin: auto;
         }
     }
     
