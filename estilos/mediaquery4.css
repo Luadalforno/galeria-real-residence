@@ -2,7 +2,7 @@
 @charset "UTF-8";
 
 
-@media(min-width: 500px) and (max-width: 768px){
+@media(min-width: 100px) and (max-width: 768px){
     
         .imagem {
             margin: auto;
@@ -112,7 +112,7 @@
     }
 
 
-@media (min-width: 500px) and (max-width:1024px) {
+@media (min-width: 100px) and (max-width:1024px) {
     .imagem {
         height: 25vh;
         width:13vw;
