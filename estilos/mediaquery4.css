@@ -123,6 +123,18 @@
             font-size: 12px;
         }
 
+        .surfistaazul p {
+            margin-block: 75px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .fraternidade p {
+            margin-block: 75px;
+            text-align: left;
+            font-size: 12px;
+        }
+
         .obras {
             flex-wrap: wrap;
         }
@@ -138,7 +150,7 @@
         
     }
 
-    .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo {
+    .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo, .surfistaazul, .fraternidade {
         width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -161,10 +173,15 @@
 
     .surfistaamarelo p {
         margin-block: 65px;
-            text-align: left;
-            font-size: 12px;
+        text-align: left;
+        font-size: 12px;
     }
 
+    .surfistaazul p {
+        margin-block: 65px;
+        text-align: left;
+        font-size: 12px;
+    }
     .obras {
         flex-wrap: wrap;
         
@@ -178,7 +195,7 @@
             margin: auto;
         }
 
-        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo {
+        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo, .surfistaazul, .fraternidade {
             width: 20%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -203,7 +220,7 @@
             
         }
 
-        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo {
+        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo, .surfistaazul, .fraternidade {
             width: 20%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
