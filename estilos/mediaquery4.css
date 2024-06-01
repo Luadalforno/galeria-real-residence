@@ -21,7 +21,7 @@
             font-size: 12px;
         }
 
-        .subver p{
+        .subver p {
             margin-block: 80px;
             text-align: left;
             font-size: 12px;
@@ -35,7 +35,60 @@
 
         .negraruiva p {
             margin-block: 90px;
-            
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .caminhante p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .africa p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .felicidade p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .horizonte p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .homem p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .voo p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .morena p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .contemplação p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .salto p {
+            margin-block: 90px;
             text-align: left;
             font-size: 12px;
         }
@@ -55,7 +108,7 @@
         
     }
 
-    .parabola, .subver, .exrot, .abomba, .negraruiva {
+    .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto {
         width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -83,7 +136,7 @@
             margin: auto;
         }
 
-        .parabola, .subver, .exrot, .abomba, .negraruiva {
+        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto {
             width: 20%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -108,7 +161,7 @@
             
         }
 
-        .parabola, .subver, .exrot, .abomba, .negraruiva {
+        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto {
             width: 20%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
