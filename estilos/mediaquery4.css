@@ -93,6 +93,18 @@
             font-size: 12px;
         }
 
+        .montanha p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .mariacomomenino p {
+            margin-block: 90px;
+            text-align: left;
+            font-size: 12px;
+        }
+
         .obras {
             flex-wrap: wrap;
         }
@@ -108,7 +120,7 @@
         
     }
 
-    .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto {
+    .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino {
         width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -136,7 +148,7 @@
             margin: auto;
         }
 
-        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto {
+        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino {
             width: 20%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -161,7 +173,7 @@
             
         }
 
-        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto {
+        .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino {
             width: 20%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
