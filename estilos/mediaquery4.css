@@ -144,7 +144,7 @@
     @media (min-width:100px) and (max-width: 736px){
         .imagem {
             height: 26vh;
-            width: 27vw;
+            width: 30vw;
             margin: auto;
             
         }
@@ -157,16 +157,16 @@
 
         .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo, .surfistaazul, .fraternidade {
             width: 20%;    
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    padding: 30px 30px;
-    padding-right: 20px;
-    margin-right: 30px;
-    display: flex;
-    width: 288px;
-    height: 175px;
-    object-fit: cover;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            padding: 30px 30px;
+            padding-right: 20px;
+            margin-right: 30px;
+            display: flex;
+            width: 287px;
+            height: 175px;
+            object-fit: cover;
             margin: auto;
         }
 
