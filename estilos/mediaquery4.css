@@ -143,20 +143,49 @@
 
     @media (min-width:100px) and (max-width: 736px){
         .imagem {
-            height: 30vh;
-            width: auto;
+            height: 26vh;
+            width: 27vw;
             margin: auto;
             
         }
 
         .imagem2 {
-            height: 20vh;
+            height: 18vh;
             width: auto;
             margin: auto;
         }
 
         .parabola, .subver, .exrot, .abomba, .negraruiva, .caminhante, .africa, .felicidade, .horizonte, .homem, .voo, .morena, .contemplação, .salto, .montanha, .mariacomomenino, .tecnologos, .surfistavermelho, .surfistaamarelo, .surfistaazul, .fraternidade {
+            width: 20%;    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 30px 30px;
+    padding-right: 20px;
+    margin-right: 30px;
+    display: flex;
+    width: 288px;
+    height: 175px;
+    object-fit: cover;
             margin: auto;
+        }
+
+        .surfistavermelho p {
+            margin-block: 75px;
+            text-align: left;
+            font-size: 12px;
+        }
+    
+        .surfistaamarelo p {
+            margin-block: 65px;
+            text-align: left;
+            font-size: 12px;
+        }
+    
+        .surfistaazul p {
+            margin-block: 65px;
+            text-align: left;
+            font-size: 12px;
         }
     }
 
