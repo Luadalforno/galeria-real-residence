@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1024px) {
+@import url(https://db.onlinewebfonts.com/c/7c9d8cabea7f4697dde2e98c001c5f2d?family=Futura+PT+Light);
+
+@font-face {
+    font-family: "Futura PT Light";
+    src: url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot");
+    src: url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.svg#Futura PT Light")format("svg");
+}
+
+
+@media (min-width: 100px) and (max-width: 1024px) {
     .imagem {
         height: 20vh;
         width: 20vw;
+        background-position: right bottom;
         object-fit: cover;
         flex-wrap: wrap;
         
@@ -18,5 +32,10 @@
     padding: 15px;
     width: 200px;
     height: 300px;
+    border-radius: 40%;
+    }
+
+    h1 {
+        font-family: "Futura PT Light";
     }
 }
