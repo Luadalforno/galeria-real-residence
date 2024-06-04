@@ -3,7 +3,20 @@
 @media screen and (max-width: 1024px) {
     .imagem {
         height: 20vh;
-        width: 30vw;
+        width: 20vw;
         object-fit: cover;
+        flex-wrap: wrap;
+        
+    }
+
+    .curvasecores, .geração80 {
+        margin: auto;
+        width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
+    width: 200px;
+    height: 300px;
     }
 }
