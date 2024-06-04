@@ -13,20 +13,45 @@
 }
 
 
-@media (min-width: 100px) and (max-width: 1024px) {
+
+
+@media screen and (max-width: 600px){
     .imagem {
         height: 20vh;
-        width: 20vw;
-        background-position: center center;
-        object-fit: contain;
+        width: auto;
+        border-radius: 10px;
+        margin: auto;
         flex-wrap: wrap;
-        border-radius: 5px;
+    
+        
         
     }
+}
+
+@media screen and (max-width: 900px) {
+    .imagem{
+         height:110px;
+         width: auto;
+         border-radius: 10px;
+}   
+}
+
+@media screen and (min-width: 901px) and (max-width: 1534px) {
+    .imagem {
+        height: 160px;
+        width: 200px;
+        border-radius: 10px;
+        margin: auto;
+    }
+}
+
+
+
+ 
 
     .curvasecores, .geração80 {
         margin: auto;
-        width: 30%;
+        
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -41,4 +66,3 @@
     }
 
      
-}

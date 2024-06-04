@@ -45,12 +45,16 @@ body {
         
 }
 
+.imagem {
+    margin: auto;
+}
+
 
 
 .maioejunho {
     display: flex;
     flex-wrap: wrap;
-    
+    margin: auto;
 }
 
 
