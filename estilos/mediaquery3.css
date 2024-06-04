@@ -17,8 +17,8 @@
     .imagem {
         height: 20vh;
         width: 20vw;
-        background-position: right bottom;
-        object-fit: cover;
+        background-position: center center;
+        object-fit: contain;
         flex-wrap: wrap;
         border-radius: 5px;
         
