@@ -144,14 +144,14 @@
     @media (min-width:100px) and (max-width: 736px){
         .imagem {
             height: 20vh;
-            width: 28vw;
+            width: 25vw;
             margin: auto;
             
         }
 
         .imagem2 {
-            height: 18vh;
-            width: 38vw;
+            height: 16vh;
+            width: 37vw;
             margin: auto;
         }
 
