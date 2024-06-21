@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +8,28 @@
 </head>
 <body>
     <header>
-        <div><a href="index.html"><img src="imagens/coroa4.png" alt="coroa"></a></div><h1>Contato</h1>
+        <div><a href="index.html"><img src="imagens/coroa4.png" alt="coroa"></a></div><h1>CONTATO</h1>
     </header>
     <main>
-        <article>
-            <p>E-mail:</p><br>
-            <p>Telefone: (21) 2546-6565</p><br>
-           <p>Endereço: Av. Princesa Isabel, 500, Copacabana, Rio de Janeiro, RJ (Dentro do Real Residence Hotel).</p><br>
-           <p>Redes Sociais:</p><Br>
-        </article>
+        <section>
+            <form action="https://formsubmit.co/galeriarealresidence@gmail.com" method="POST">
+            <label for="camponome">NOME: </label>
+            <input type="text" name="nome" id="camponome " placeholder="Digite seu nome" required>
+
+
+            <label for="campoemail">EMAIL: </label>    
+           <input type="email" name="email" id="campoemail" placeholder="Digite seu e-mail" required> <br> <br>
+
+           <label for="mensagem">MENSAGEM:</label>
+           <input type="text" name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required >
+
+           <button type="submit">ENVIAR</button>
+
+           <input type="hidden" name="_subject" value="Novo Contato!">
+           <input type="text" name="_honey" id="_honey" style="display: none">
+           <input type="hidden" name="_captcha" value="false">
+            </form>
+        </section>
     </main>
 </body>
 </html>
