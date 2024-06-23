@@ -78,7 +78,7 @@ figure {
     
 
     img {
-        width: 100px;
+        width: 200px;
     }
 
     .imagem {
@@ -93,7 +93,7 @@ figure {
 
 
         img {
-            width: 150px;
+            width: 200px;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
