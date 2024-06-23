@@ -74,25 +74,33 @@ figure {
 
 
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
-    .obras {
-    width: 30%;
-    background-color: white;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   text-align: center;
-   padding: 10px 20px ;
-   display: flex;
-    width: 400px;
-    height: 400px;
-    }
+@media screen and (max-width: 768px) {
+    
 
-    figure > img {
+    img {
         width: 100px;
     }
+
+    .imagem {
+        width: 70px;
+    }
+
+    
 }
 
 @media screen and (min-width: 769px) and (max-width: 1205px) {
-        .obras {
-            width: 400px;
+        
+
+
+        img {
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+
+        .imagem {
+            width: 70px;
         }
 }
