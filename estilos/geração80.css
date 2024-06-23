@@ -26,6 +26,7 @@ h1 {
     margin: auto;
     margin-top: 70px;
     font-family: "Futura PT Light";
+    padding-bottom: 30px;
 }
 
 p {
@@ -37,4 +38,61 @@ p {
     max-width: 800px;
     margin: auto;
     padding: 10px;
+}
+
+figcaption {
+    font-family: "Futura PT Light";
+    font-weight: normal;
+    justify-content: center;
+    
+}
+
+figure {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.obras div {
+   width: 30%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   align-items: center;
+   padding: 10px 20px ;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 400px;
+   margin: auto;
+   
+   
+}
+
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .obras {
+    width: 30%;
+    background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   padding: 10px 20px ;
+   display: flex;
+    width: 400px;
+    height: 400px;
+    }
+
+    figure > img {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1205px) {
+        .obras {
+            width: 400px;
+        }
 }
