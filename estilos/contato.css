@@ -41,25 +41,8 @@ main {
 
 
 
-h1 {
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
-    margin-top: 70px;
-    font-family: "Futura PT Light";
-    align-items: flex-start;
-}
 
-p {
-    font-family: "Futura PT Light";
-    font-size: 18px;
-    font-weight: light;
-    text-indent: 10px;
-    text-align: justify;
-    max-width: 800px;
-    margin: auto;
-    padding: 10px;
-}
+
 
 form {
     background-color: #8c9090;
@@ -70,6 +53,7 @@ form {
     gap: 10px;
     margin: 0 10px;
     padding: 20px;
+    
 
 }
 
@@ -85,6 +69,18 @@ input#mensagem {
     width: 300px;
 }
 
+input[type=text] {
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+input[type=email] {
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
 .localização {
     display: flex;
     padding-top: 50px;
@@ -94,6 +90,11 @@ input#mensagem {
 
 p {
     margin: auto;
+    font-family: "Futura PT Light";
+}
+
+label {
+    font-family: "Futura PT Light";
 }
 
 .contato {

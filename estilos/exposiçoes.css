@@ -49,34 +49,29 @@ body {
 
 .imagem {
     margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-.maioejunho {
+.maioejunho2024 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: auto;
 }
 
 
 
-
-
-
-
-
-span {
+figcaption {
    
     font-family: "Futura PT Light";
     
     
 }
 
-h2 {
-    text-align: left;
-    font-family: "Futura PT Light";
-}
 
 h1 {
     font-family: "Futura PT Light;"
