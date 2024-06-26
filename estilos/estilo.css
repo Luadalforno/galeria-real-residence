@@ -33,11 +33,12 @@ body {
 #burguer {
     background-color: rgb(143, 139, 139); 
     display: block;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     padding: 10px;
     color: black;
     cursor: pointer;
+    
 }
 
 #burguer:hover {
@@ -63,158 +64,111 @@ h1 {
 
 nav {
     text-align: center;
-    padding-bottom: 0px;
-    padding-top: 0px;
     background-color: rgb(193, 186, 186); 
+    width: 100%;
+    
+    
     
     
 }
 
- .naveg > nav > div > a {
+ #itens  div  a {
     
     text-decoration: none;
     padding: 5px;
-    transition-duration: 0.3s;
-    display: flex;
-    justify-content: center;
+    justify-content:space-around;
     font-size: 18px;
     
     
-
-}
-
-.naveg > nav > div {
-    display:inline-block;
-    width: 200px;
-    justify-content: center;
    
+    
+    
+    
+    
+
 }
+
+#itens div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    
+    
+ 
+    
+}
+
+
 
 nav a {
     color: black;
+    
 }
 
 nav a:hover {
     background-color: #547EB0;
+    transition-duration: 1.5s;
     padding: 3px;
     color: #f0f8ff;
     border-radius: 6px;
 }
 
-div.quadrado1 {
+.container > div{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
-    margin-right: auto;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    gap: 20px;
+    
+    
+    
+}
+
+img {
+    width: 200px;
+}
+
+.imagem {
+    margin: auto;
+    width: 150px;
+    
+}
+
+.quadrado1 div {
+    display: flex;
+    width: 200px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     
     
 }
 
-.quadrado1>div {
-    display: inline-block;
-    width: 305px;
-    
-    
+
+figcaption {
+    font-family: "Futura PT Light";
+    font-size: 20px;
+    width: 60%;
+    background-color: rgba(218, 222, 217, 0.598);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 3px;
 }
 
-.quadrado1 div:hover {
-    border-style: solid;
-    color: #9A9090;
-}
-
-div.quadrado2 {
+figure.container {
     display: flex;
-    justify-content: center;
-    margin-right: auto;
-}
-
-.quadrado2>div {
-    display: inline-block;
-    width: 305px;
-}
-
-.quadrado2 div:hover {
-    border-style: solid;
-    color: #9A9090;
-}
-
-div.quadrado3 {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-}
-
-.quadrado3>div {
-    display: inline-block;
-    width: 305px;
-}
-
-.quadrado3 div:hover {
-    border-style: solid;
-    color: #9A9090;
-}
-
-div.quadrado4 {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-}
-
-.quadrado4>div {
-    display: inline-block;
-    width: 305px;
-}
-
-.quadrado4 div:hover {
-    border-style: solid;
-    color: #9A9090;
-}
-
-div.quadrado5 {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-}
-
-.quadrado5 > div {
-    display: inline-block;
-    width: 305px;
-}
-
-.quadrado5 div:hover {
-    border-style: solid;
-    color: #9A9090;
-}
-
-div.quadrado6 {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-}
-
-.quadrado6 > div {
-    display: inline-block;
-    width: 305px;
-}
-
-.quadrado6 div:hover {
-    border-style: solid;
-    color: #9A9090;
-}
-
-
-div.quadrado7 {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-}
-
-.quadrado7 > div {
-    display: inline-block;
-    width: 305px;
-}
-
-.quadrado7 div:hover {
-    border-style: solid;
-    color: #9A9090;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 30px;
 }
 

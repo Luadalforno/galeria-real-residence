@@ -1,43 +1,20 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1140px) {
-    .quadrado1 {
+@media screen and (max-width: 768px) {
+    .quadrado1 div {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .quadrado2 {
-        display: flex;
-        flex-wrap: wrap;
+
+    img {
+        width: 150px;
+      
     }
 
-    .quadrado3 {
-        display: flex;
-        flex-wrap:wrap;
+    .imagem {
+        width: 70px;
     }
-
-    .quadrado4 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .quadrado5 {
-        display: flex;
-        flex-wrap:wrap;
-    }
-
-    .quadrado6 {
-        display:flex;
-        flex-wrap: wrap;
-    }
-
-    .quadrado7 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    
-
 }
 
 @media screen and (min-width: 768px) {
@@ -56,6 +33,23 @@
     
      
     
+}
+
+@media screen and (min-width: 769px) {
+        
+
+
+    img {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .imagem {
+        width: 70px;
+    }
 }
 
 
