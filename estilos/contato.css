@@ -45,7 +45,7 @@ main {
 
 
 form {
-    background-color: #8c9090;
+    
     border-radius: 8px;
     box-shadow: 0 1px 2px #ccc;
     display: flex;
@@ -58,7 +58,7 @@ form {
 }
 
 button {
-    background-color: rgb(85, 94, 94);
+   
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -66,24 +66,26 @@ button {
 
 input#mensagem {
     height: 200px;
-    width: 300px;
+    width: 450px;
 }
 
 input[type=text] {
     border-radius: 5px;
     height: 30px;
+    width: 450px;
     border: none;
 }
 
 input[type=email] {
     border-radius: 5px;
     height: 30px;
+    width: 450px;
     border: none;
 }
 
 .localização {
     display: flex;
-    padding-top: 50px;
+    padding-top: 150px;
     justify-content: left;
     align-items: center;
 }
